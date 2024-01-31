@@ -6,7 +6,9 @@
   "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "prettier:write": "prettier --write .",
+    "prettier:check": "prettier --check ."
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,10 @@
   "homepage": "https://github.com/OnlyBrownAnt/algorithmic-note#readme",
   "dependencies": {
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "3.2.4"
   }
 }
