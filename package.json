@@ -1,0 +1,24 @@
+{
+  "name": "algorithmic-note",
+  "version": "1.0.0",
+  "description": "algorithmic note",
+  "type": "module",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnlyBrownAnt/algorithmic-note.git"
+  },
+  "author": "OnlyBrownAnt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OnlyBrownAnt/algorithmic-note/issues"
+  },
+  "homepage": "https://github.com/OnlyBrownAnt/algorithmic-note#readme",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  }
+}
