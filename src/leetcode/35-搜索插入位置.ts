@@ -5,7 +5,7 @@
  * @param {number} target
  * @return {number}
  */
-var searchInsert = function (nums: number[], target: number): number {
+var searchInsert = function (nums: number[], target: number): number | undefined {
   let left = 0;
   let right = nums.length - 1;
   while (left < right) {

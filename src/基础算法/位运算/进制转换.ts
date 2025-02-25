@@ -88,7 +88,7 @@ function sixteenToTen(n: number) {
 
   let sum = 0;
   for (let i = s.length - 1; i >= 2; i--) {
-    sum += map.get(s.charAt(i)) * Math.pow(16, s.length - 1 - i);
+    sum += map.get(s.charAt(i)) as number * Math.pow(16, s.length - 1 - i);
   }
   return sum;
 }

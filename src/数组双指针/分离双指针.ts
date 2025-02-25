@@ -14,11 +14,13 @@ function dualPointers(
     if (a > b) return 1;
     else if (a < b) return -1;
     else if (a == b) return 0;
+    return 0;
   });
   nums2.sort((a, b) => {
     if (a > b) return 1;
     else if (a < b) return -1;
     else if (a == b) return 0;
+    return 0
   });
 
   let left_1 = 0;

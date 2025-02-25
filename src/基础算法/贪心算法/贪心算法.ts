@@ -17,11 +17,13 @@ var findContentChildren = function (g: number[], s: number[]) {
     if (a < b) return -1;
     else if (a == b) return 0;
     else if (a > b) return 1;
+    else return 0;
   });
   s.sort((a, b) => {
     if (a < b) return -1;
     else if (a == b) return 0;
     else if (a > b) return 1;
+    else return 0;
   });
 
   // 贪心选择性质

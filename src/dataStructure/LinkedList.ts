@@ -1,6 +1,6 @@
 class LinkedListNode {
   data: any; // 数据域
-  next: LinkedListNode; // 指针域 - 直接后继指针
+  next: LinkedListNode | null; // 指针域 - 直接后继指针
   constructor() {
     this.data = null;
     this.next = null;
@@ -46,14 +46,14 @@ createLinkedList(l, 3); // {"data":null,"next":{"data":0,"next":{"data":1,"next"
 
 function find(l: LinkedListNode, i: number, result: any) {
   let p = new LinkedListNode();
-  p = l.next;
+  p = l.next as LinkedListNode;
   let j = 1;
   if (i < 1) {
     return 0;
   }
 
   while (p && j < i) {
-    p = p.next;
+    p = p.next as LinkedListNode;
     j++;
   }
 

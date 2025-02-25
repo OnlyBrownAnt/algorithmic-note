@@ -1,7 +1,7 @@
 // 栈结点
 class StackNode {
   data: any; // 结点数据域
-  next: StackNode; // 结点next指针
+  next: StackNode | null; // 结点next指针
   constructor() {
     this.data = null;
     this.next = null;
@@ -10,7 +10,7 @@ class StackNode {
 
 // 栈
 class Stack {
-  top: StackNode; // 栈顶指针
+  top: StackNode | null; // 栈顶指针
   constructor() {
     this.top = null;
   }
